@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/logo star+.svg" alt="Star+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item ">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item ">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
             <h1 class="hero__content__branding">
@@ -24,34 +39,200 @@
     </section>
     <section class="plans">
         <h2 class="title--big">Escolha seu plano</h2>
-        <ul class="plans__list">
-            <li class="plans__list__item">
-                    <img src="./dist/images/star+ logo body.png" class="star" alt="Star+">
+            <ul class="plans__list">
+                <li class="plans__list__item">
+                    <div class="card">
+                        <img src="./dist/images/star+ logo body.png" class="star" alt="Star+">
                     <strong class="title--small">R$ 40,90/mês*</strong>
-                    <p class="text--big space1">
+                    <p class="text--big">
                         No Star+ você encontra estreias de filmes, séries e eventos esportivos com a ESPN.
                     </p>
+                    </div>                     
                     <button class="button button--secondary">assine agora</button>
-            </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/disney_star_plus_sm.png" alt="Disney+ e Star+">
-                <strong class="title--small">R$ 55,90/mês*</strong>
-                <p class="text--big space">
-                    Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois serviços por um preço único.
-                </p>
-                <button class="button">assine agora</button>
-            </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/star+ logo body.png"  class="star" alt="Star+">
-                <strong class="title--small">R$ 329,90/ano à vista*</strong>
-                <p class="text--big">
-                    Um ano de Star+ por um preço único. Todo o entretenimento e os esportes que você adora, sem limites.
-                </p>
-                <button class="button button--secondary">assine agora</button>
-            </li>
-        </ul>
-        <p class="text--small">*O preço pode variar caso a assinatura seja feita através de outras plataformas.</p>    
+                </li>
+                <li class="plans__list__item">
+                    <div class="card">
+                        <img src="./dist/images/star+ e disney+.png" alt="Disney+ e Star+">
+                    <strong class="title--small">R$ 55,90/mês*</strong>
+                    <p class="text--big">
+                        Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois serviços por um preço único.
+                    </p>
+                    </div>
+                    <button class="button">assine agora</button>
+                </li>
+                <li class="plans__list__item">
+                    <div class="card">
+                        <img src="./dist/images/star+ logo body.png"  class="star" alt="Star+">
+                    <strong class="title--small">R$ 329,90/ano à vista*</strong>
+                    <p class="text--big">
+                        Um ano de Star+ por um preço único. Todo o entretenimento e os esportes que você adora, sem limites.
+                    </p>
+                    </div>
+                    <button class="button button--secondary">assine agora</button>
+                </li>
+            </ul>
+            <p class="text--small">*O preço pode variar caso a assinatura seja feita através de outras plataformas.</p>    
     </section>
+    <section class="shows">
+        <div class="shows__series">
+            <h2 class="title">O que você vai ver primeiro?</h2>
+            <p class="text">Estreias de filmes, clássicos e sagas, suas séries favoritas e lançamentos exclusivos, comédias animadas, produções originais e esportes ao vivo com a ESPN.</p>
+            <img src="./dist/images/star+ body.jpeg" alt="imagens de seriados">
+        </div>
+        <div class="shows__sports">
+            <div class="shows__sports__text">
+                <h2 class="title">Mais ESPN no Star+.</h2>
+                <p class="text--big">Os melhores torneios do mundo ao vivo, séries originais, programas e jogos exclusivos.</p>
+            </div>
+            <div class="shows__sports__img">
+                <img src="./dist/images/star+ body 2.png" alt="simbolos esportivos">
+            </div>
+        </div>
+        <div class="shows__simpsons">
+            <div class="shows__simpsons__text">
+                <h2 class="title">Os Simpsons como você nunca viu. Sem limites.</h2>
+                <h5 class="title--small">Todos os episódios, o filme, os curtas e as novas temporadas exclusivas. Você consegue lidar com tanto Simpsons?</h5>
+                <p class="text--small">The Simpsons ™ & © 2024 20th Century Studios</p>
+            </div>
+            <div class="shows__simpsons__img">
+                <img src="./dist/images/star+ simpsons.jpeg" alt="simpsons">
+            </div>
+        </div>
+    </section>
+        <section class="faq">
+            <h2 class="title">Perguntas frequentes</h2>
+            <ul class="faq__questions">
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__question" data-faq-question>
+                        Já tem o Disney+ ou Star+ e quer o Combo+?
+                    </div>
+                    <div class="faq__questions__item__answer text--big">
+                        Ao assinar o Combo+:
+                        <ul>
+                            <li>
+                                <p>O valor da sua assinatura existente será descontado do preço do Combo+.</p>
+                            </li>
+                            <li>
+                                <p>Se você assina o plano mensal, o valor que você paga mensalmente será descontado do preço do Combo+.</p>
+                            </li>
+                            <li>
+                                <p>Se você tem uma assinatura anual do Disney+ cobrada diretamente pelo Disney+, não é possível mudar para o Combo+ no momento. <br>Entre em contato com o suporte do Star+ para conhecer suas opções.</p>
+                            </li>
+                            <li>
+                                <p>Você vai receber um e-mail com os valores detalhados assim que finalizar o pagamento.</p>
+                            </li>
+                            <li>
+                                <p>Lembre-se: você pode cancelar a assinatura quando quiser.</p>
+                            </li>
+                        </ul>
+                        No momento, apenas a assinatura mensal do Combo+ está disponível.
+                    </div>
+                </li>
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__question" data-faq-question>
+                        Já é assinante do Disney+?
+                    </div>
+                    <div class="faq__questions__item__answer text--big">
+                        Assine o Star+ usando o mesmo login e senha do Disney+, assim você terá acesso a ambos os serviços por um preço promocional. Para ser assinante, você deve ter 18 anos.
+                    </div>
+                </li>
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__question" data-faq-question>
+                        O que está incluído no Star+?
+                    </div>
+                    <div class="faq__questions__item__answer text--big">
+                        O Star+ oferece:
+                        <ul>
+                            <li>
+                                <p>Experiência de entretenimento exclusiva.</p>
+                            </li>
+                            <li>
+                                <p>Eventos esportivos da ESPN ao vivo com máxima qualidade.</p>
+                            </li>
+                            <li>
+                                <p>Grande variedade de títulos em 4K.</p>
+                            </li>
+                            <li>
+                                <p>Downloads em até 10 dispositivos.</p>
+                            </li>
+                            <li>
+                                <p>A possibilidade de assistir em até 4 telas ao mesmo tempo sem custo adicional - todos aproveitam!</p>
+                            </li>
+                            <li>
+                                <p>Controle parental para cuidar da família.</p>
+                            </li>
+                        </ul>                        
+                    </div>
+                </li>
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__question" data-faq-question>
+                        Quais formas de pagamento posso utilizar?
+                    </div>
+                    <div class="faq__questions__item__answer text--big">
+                        Você pode utilizar: cartão de débito, cartão de crédito, PayPal, Mercado Pago, e também empresas parceiras como Google Play Store, App Store da Apple; Mercado Livre e provedores locais de TV, telefonia e internet.
+                    </div>
+                </li>
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__question" data-faq-question>
+                        O Star+ possui controle parental?
+                    </div>
+                    <div class="faq__questions__item__answer text--big">
+                        Sim. Com o controle parental do Star+, você poderá controlar o acesso a conteúdos de acordo com a classificação indicativa selecionada, oferecendo maior segurança aos usuários da sua família.
+                    </div>
+                </li>
+                <li class="faq__questions__item">
+                    <div class="faq__questions__item__question" data-faq-question>
+                        Onde posso assistir ao Disney+?
+                    </div>
+                    <div class="faq__questions__item__answer text--big">
+                        O aplicativo do Disney+ está disponível em dispositivos móveis, navegadores, videogames, decodificadores e smart TVs. Confira a lista completa de dispositivos compatíveis na Central de Ajuda
+                    </div>
+                </li>
+            </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/logo star+.svg" alt="Disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/globe.svg" alt="Globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small" >Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small" >Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small" >Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small" >Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small" >Dispositivos compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small" >Sobre o Star+</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small" >Anúncios personalizados</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ® 2024 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+            </p>
+            <p class="text--small">
+                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+            </p>
+        </div>
+    </footer>    
     <script src="./src/scripts/main.js"></script>
 </body>
 </html>

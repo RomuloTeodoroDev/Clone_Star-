@@ -1,6 +1,10 @@
 @use 'variaveis';
 @use 'hero';
 @use 'plans';
+@use 'shows';
+@use 'faq';
+@use 'footer';
+@use 'header';
 
 @font-face {
     font-family: Avenir;
@@ -92,9 +96,21 @@ body {
     &--secondary {
         background-color: variaveis.$corDeFundoBotaoSecundario;
         border-color: variaveis.$corDeFundoBotaoSecundario;
+        color: variaveis.$cortextoPrincipal;
 
         &:hover {
             background-color: lighten(variaveis.$corDeFundoBotaoSecundario, 3%);
+        }
+    }
+
+    &--dark {        
+        background-color: variaveis.$corDeFundoBotaoDark ;
+        color: variaveis.$cortextoPrincipal;
+        border-color: variaveis.$corDeFundoBotaoDark;
+        
+        &:hover {
+            background-color: darken(variaveis.$corDeFundoBotaoDark, 10%) ;
+            border-color:variaveis.$corDeFundoBotaoDark ;
         }
     }
 }

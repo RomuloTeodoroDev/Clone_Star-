@@ -1,0 +1,55 @@
+.shows {
+
+    p {
+        margin-top: 20px;
+    }
+
+    &__series {
+        padding: 5.6vw;
+    }
+
+    &__sports {
+        padding:5.6vw;
+        display: flex;
+        align-items: center;
+        
+        &__img {
+            img {
+                height: 704px;
+                width: auto;
+            }
+        }
+
+        &__text {
+            padding: 0 38px;
+        }
+    }
+
+    &__simpsons {
+
+        &__text {
+            padding: 96px 38px 0 96px;
+            justify-content: flex-start;
+            width: 57%;
+            max-width: 640px;
+            box-sizing: border-box;
+            position: absolute;
+
+            h5 {
+                font-size: 20px;
+                font-weight: normal;
+                line-height: 1.2;
+                margin-top: 24px;
+            }
+        }
+
+        &__img {
+            img {
+                display: block;
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+
+}
