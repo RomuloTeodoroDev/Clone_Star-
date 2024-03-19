@@ -6,26 +6,34 @@
     align-items: center;
     display: flex;   
     justify-content: center;
+    margin-top: -75px;
 
     @media (max-width: 768px) {
         background-image: url(../images/image\ hero\ star\ +\ mobile.png);
-        width: 100%;
-        max-width: 570px;
+        margin-top: -50px;
         
+        img {
+            padding-top: 30vw;
+        }
         
         h3 {
-            font-size: 22px;
+            font-size: 24px;
+            
         }
 
         .button {
             font-size: 15px;
         }
 
+        a{
+            font-size: 14px;
+        }
+
     }
 
     &__content {
         max-width: 640px;
-        width: 50%;
+        width: 100%;
         z-index: 1;
             
 
